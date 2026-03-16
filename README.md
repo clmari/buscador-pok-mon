@@ -1,5 +1,3 @@
-# buscador-pok-mon
-
 # Buscador de Pokémon
 
 Busca informações de qualquer Pokémon usando [PokéAPI](https://pokeapi.co/).
