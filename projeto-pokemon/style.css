@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(255, 240, 247), rgb(255, 73, 73));
+}
+
+h1 {
+     margin-top: 90px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border-style:solid ;
+    border-color: rgb(175, 175, 175);
+}
+
+#btn-buscar {
+    margin-top: 5px;
+    background-color: rgb(12, 55, 245);
+    color:white;
+    border-radius: 7px;
+    border-style: hidden;
+    padding: 8px;
+}
+
+#resultado {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 24px auto;
+    padding: 16px 24px;
+    width: fit-content;
+}
+
+.erro {
+    color: red;
+}
